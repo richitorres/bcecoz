@@ -7,7 +7,7 @@
                 <span class="icon-bar"style="background-color:#15a585"></span>
                 <span class="icon-bar"style="background-color:#15a585"></span>
             </button>
-            <a href="" class="navbar-brand">
+            <a href="{{route('home')}}" class="navbar-brand">
                 <p>BestCozumelExcursion</p>
             </a>
         </div>
