@@ -7,7 +7,7 @@
             <img src="{{asset('img/imaga2.jpg')}}" class="img-responsive" alt="BestCozumelExcursions">
         </div>
         <div class="item">
-            <img src="{{asset('img/imaga3.jpg')}}" class="img-responsive" alt="BestCozumelExcursions">
+            <img src="{{asset('img/imaga4.jpg')}}" class="img-responsive" alt="BestCozumelExcursions">
         </div>
     </header>
 </div>
