@@ -13,11 +13,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse ">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Transportation</a></li>
-
-                <li ><a href="#">Gallery</a></li>
-                <li><a href="#">Tours</a></li>
+                <li class="active"><a href="{{route('home')}}">Home</a></li>
+                <li><a href="{{route('tours')}}">Tours</a></li>
+                <li><a href="{{route('reservation')}}">Reservation</a></li>
+                <li ><a href="{{route('gallery')}}">Gallery</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="tel://+52 (01) 987 878 4204"><i class="ti-mobile"></i>+52 (01) 987 878 4204</a></li>

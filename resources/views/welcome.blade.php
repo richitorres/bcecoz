@@ -1,7 +1,7 @@
 @extends('template.main')
 @section('title','Welcome')
 @section('htmlcore')
-@include('partials.header')
+@include('partials.header2')
 <div class="container">
     <div id="gtco-features-3">
         <div class="gtco-container">

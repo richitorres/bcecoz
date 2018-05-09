@@ -13,4 +13,14 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+Route::get('tours',function (){
+    return view('tour.main');
+})->name('tours');
+Route::get('gallery', function (){
+    return view('galeria.main');
+})->name('gallery');
+Route::get('reservation',function (){
+    return view('reservas.main');
+})->name('reservation');

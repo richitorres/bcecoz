@@ -48,8 +48,10 @@
 @include('partials.navbar')
 @yield('htmlcore')
 @include('partials.footer')
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
 </div>
-
 
 <!-- jQuery -->
 <script src="{{URL::asset('js/jquery.min.js')}}"></script>
