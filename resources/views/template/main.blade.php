@@ -37,15 +37,17 @@
 
     <!-- Theme style  -->
     <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
+     <link rel="stylesheet" href="{{URL::asset('css/bce.css')}}">
 
     <!-- Modernizr JS -->
     <script src="{{URL::asset('js/modernizr-2.6.2.min.js')}}"></script>
 
 </head>
 <body>
-<div class="gtco-loader"></div>
+<div class=""></div>
 <div class="page">
 @include('partials.navbar')
+@include('partials.sidebar')
 @yield('htmlcore')
 @include('partials.footer')
     <div class="gototop js-top">
